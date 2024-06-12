@@ -12,7 +12,7 @@ async function setupNodeEvents(on, config) {
     
   e2e: {
     setupNodeEvents,
-    specPattern:'cypress/testDemo/myFirstTest.cy.js',
+    specPattern:'cypress/testDemo/*.cy.js',
 
 
   },
